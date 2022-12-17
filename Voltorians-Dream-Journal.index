@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Voltorian's Dream Journal</name>
+		<description>The dream journal of a legendary wizard.</description>
+		<update version="0.1.0">
+			<file name="Voltorians-Dream-Journal.index" url="https://raw.githubusercontent.com/VoltorianTheWizard/Voltorians-Dream-Journal/main/Voltorians-Dream-Journal.index" />
+		</update>
+	</info>
+	<files>
+
+		<file name="Armor.xml" url="https://raw.githubusercontent.com/VoltorianTheWizard/Voltorians-Dream-Journal/main/Voltorian's-Dream-Journal/Armor.xml" />
+		<file name="Gifts.xml" url="https://raw.githubusercontent.com/VoltorianTheWizard/Voltorians-Dream-Journal/main/Voltorian's-Dream-Journal/Gifts.xml" />
+		<file name="Magic-Weapons.xml" url="https://raw.githubusercontent.com/VoltorianTheWizard/Voltorians-Dream-Journal/main/Voltorian's-Dream-Journal/Magic-Weapons.xml" />
+		<file name="Rings.xml" url="https://raw.githubusercontent.com/VoltorianTheWizard/Voltorians-Dream-Journal/main/Voltorian's-Dream-Journal/Rings.xml" />
+		<file name="Wondrous-Items.xml" url="https://raw.githubusercontent.com/VoltorianTheWizard/Voltorians-Dream-Journal/main/Voltorian's-Dream-Journal/Wondrous-Items.xml" />
+	</files>
+</index>
