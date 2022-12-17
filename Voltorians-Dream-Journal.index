@@ -3,7 +3,7 @@
 	<info>
 		<name>Voltorian's Dream Journal</name>
 		<description>The dream journal of a legendary wizard.</description>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="Voltorians-Dream-Journal.index" url="https://raw.githubusercontent.com/VoltorianTheWizard/Voltorians-Dream-Journal/main/Voltorians-Dream-Journal.index" />
 		</update>
 	</info>
