@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Stuffy Familiar" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_STUFFY_FAMILIAR">
+		<description>
+			<html>&lt;p&gt;This small stuffed animal is soft to the touch and perfect for hugging. If you can cast the find familiar spell, you can use the animal as the material component for the spell, without it being consumed. When you do, the familiar inhabits the form of the stuffed animal, whose appearance you can change as part of casting the spell in this way. The familiar is a construct, in addition to being either a celestial, fey, or fiend, but its statistics are otherwise unchanged from its normal form. The familiar's stuffed animal form must be appropriate to the statistics of its normal animal one. For example, a familiar within a griffon stuffed animal could use the statistics for a cat or hawk, but not a poisonous snake. The stuffed animal grows or shrinks to match the size of the familiar's normal form.&lt;/p&gt;
+&lt;p&gt;While the familiar remains motionless, it is indistinguishable from a normal stuffed animal. If you temporarily dismiss the familiar, the stuffed animal and familiar disappear into a pocket dimension together. If the familiar is dismissed forever or drops to 0 Hit Points, it leaves the stuffed animal behind.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Pale Winds Charm" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_PALE_WINDS_CHARM">
+		<description>
+			<html>&lt;p&gt; Melee weapons with this charm attached move the air around them with deadly force. You may use a bonus action to swing your weapon causing a small rift of wind to deal 1d4 force damage to a target, pushing them back 10 feet unless they meet a Strength save (DC 12). The charm is found with 1d4+1 charges already stored.&lt;/p&gt;
+&lt;p&gt;This item regains 1d4 charges per short rest, or 3d4 on a long rest.&lt;/p&gt;
+&lt;p&gt;You may only have one charm equiped to a weapon at a time.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+			<set name="Type">Wondrous Items</set>
+		</setters>
+	</element>
+	<element name="Crimson Hair Charm" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_CRIMSON_HAIR_CHARM">
+		<description>
+			<html>&lt;p&gt;This charm, made of unknown reddish hair and fur, absorbs the weapon bearer's blood as they are injured. If you take damage in one round equal to or more than 1/4 of your max health, this item gains one charge. When you hit with the attached weapon, you may spend one charge to do an extra weapon die of damage. The charm is found with 1d4+1 charges already stored.&lt;/p&gt;
+&lt;p&gt;This item regains 1d4 charges per short rest, or 3d4 on a long rest.&lt;/p&gt;
+&lt;p&gt;You may only have one charm equiped to a weapon at a time.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Infected Charm" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_INFECTED_CHARM">
+		<description>
+			<html>&lt;p&gt;This charm has a light smell of sickness and rot to it. Weapons which this charm attached to it to deal an extra 2d6 poison damage on a successful attack, but also harms the bearer for 1d4 poison damage unless a charge is used. You can add one charge by willingly taking 1d4 poison damage. The charm is found with 1d4+1 charges already stored.&lt;/p&gt;
+&lt;p&gt;This item regains 1d4 charges per short rest, or 2d4 on a long rest.&lt;/p&gt;
+&lt;p&gt;You may only have one charm equiped to a weapon at a time.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Boulder Charm" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BOULDER_CHARM">
+		<description>
+			<html>&lt;p&gt;This charm is made entirely of durable stone and is quite heavy. It dulls any weapon it is attached to; that weapon's damage type becomes bludgeoning and it loses the light and thrown properties if it had them. When using the attached weapon, the bearer can use a charge to have advantage on melee attacks, and knock the target prone unless they make a Strength save (DC 13). The charm is found with 1d4+1 charges already stored.&lt;/p&gt;
+&lt;p&gt;This item regains 1d4 charges per short rest, or 3d4 on a long rest.&lt;/p&gt;
+&lt;p&gt;You may only have one charm equiped to a weapon at a time.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Veiled Charm" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_VEILED_CHARM">
+		<description>
+			<html>&lt;p&gt;This charm is covered with strange glyphs and runes. Weapons with this charm attached count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage. The charm is found with 1d4+1 charges already stored.&lt;/p&gt;
+&lt;p&gt;This item regains 1d4 charges per short rest, or 3d4 on a long rest.&lt;/p&gt;
+&lt;p&gt;You may only have one charm equiped to a weapon at a time.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Mossed Charm" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_MOSSED_CHARM">
+		<description>
+			<html>&lt;p&gt;When this charm is attached to a weapon, it becomes lighter and better balanced. If that weapon weighs 4 lbs. or less it gains the finesse weapon property. If it already has this property, it gains the light weapon property instead. If it already has both, it gains the thrown (range 20/60) weapon property. While you have the weapon equipped, you have a +2 to attack rolls. The charm is found with 1d4+1 charges already stored.&lt;/p&gt;
+&lt;p&gt;This item regains 1d4 charges per short rest, or 3d4 on a long rest.&lt;/p&gt;
+&lt;p&gt;You may only have one charm equiped to a weapon at a time.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Dimension Chalk" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_DIMENSION_CHALK">
+		<description>
+			<html>&lt;p&gt;The dimension chalk has three charges. You can use a charge to draw a door into the air, which turns into a portal leading to any location on any plane of existance you wish. You and up to eight willing creatures who link hands are transported to a different plane of existence. You can specify a target destination in general terms and you appear in or near that destination. Creating the portal takes 1 minute, and closes after 1 minute or unless you wish it to close sooner.&lt;/p&gt;
+&lt;p&gt;After all the charges are gone, the item disappears.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Dimension, Chalk</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Cape of Nine Lives" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_CAPE_OF_NINE_LIVES">
+		<description>
+			<html>&lt;p&gt;While wearing this cape, a mischievous cat spirit will ward the wearer from death up to nine times. Each time a wearer would take damage that would drop them to 0 Hit Points, the cape makes them drop to 1 hit point instead. If the wearer is targeted by an effect that would kill them instantaneously without dealing damage, the effect is negated instead.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Catification Curse&lt;/p&gt;
+&lt;p&gt;Each time the cape saves your life, your appearance and behavior become more feline (whiskers, cat ears, an urge to knock things over, etc.) A &lt;strong&gt;Greater Restoration&lt;/strong&gt; or &lt;strong&gt;Remove Curse&lt;/strong&gt; spell can reverse these changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feline Fate&lt;/p&gt;
+&lt;p&gt;The ninth time the cape is used, it flies off to the Astral Plane and the wearer is permanently transformed into an ordinary cat. Your game statistics are replaced by the statistics of a Cat (CR 0), but you retain your alignment, personality, mental ability scores, and the ability to speak. Your gear melds into your new form. Only a &lt;strong&gt;Wish&lt;/strong&gt; spell or &lt;strong&gt;Divine Intervention&lt;/strong&gt; can reverse this fate.</html>
+		</description>
+		<setters>
+			<set name="Keywords">Cape</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Slot">Shoulders</set>
+			<set name="Attunement">True</set>
+		</setters>
+	</element>
+	<element name="Dart of Teleportation" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_DART_OF_TELEPORTATION">
+		<description>
+			<html>&lt;p&gt;This dart funcions in combat like a standard dart, dealing 1d4 piercing damage, but automatically teleports the thrower to where it landed.&lt;/p&gt;
+&lt;p&gt;Each dart needs an half hour to recharge.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Flask of the Hearth" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_FLASK_OF_THE_HEARTH">
+		<description>
+			<html>&lt;p&gt;This dull and worn emerald flask is slightly warm to the touch. When placed in a campfire, hearth, or similar source of flame, it begins to slowly fill with a vibrant orange liquid. After 1 hour, the flask is filled completely. It may be removed from the fire safely as it is never more than warm to the touch. Using a bonus action, a creature may drink a portion of the liquid in order to regain a number of Hit Points depending on the variety of the flask.&lt;/p&gt;
+&lt;p&gt;On use, this flasks heals for 2d4 + 2 Hit Points.&lt;/p&gt;
+&lt;p&gt;The flask has 2 uses before it needs to be refilled.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Flask of the Greater Hearth" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_FLASK_OF_THE_GREATER_HEARTH">
+		<description>
+			<html>&lt;p&gt;This dull and worn emerald flask is slightly warm to the touch. When placed in a campfire, hearth, or similar source of flame, it begins to slowly fill with a vibrant orange liquid. After 1 hour, the flask is filled completely. It may be removed from the fire safely as it is never more than warm to the touch. Using a bonus action, a creature may drink a portion of the liquid in order to regain a number of Hit Points depending on the variety of the flask.&lt;/p&gt;
+&lt;p&gt;On use, this flasks heals for 4d4 + 4 Hit Points.&lt;/p&gt;
+&lt;p&gt;The flask has 3 uses before it needs to be refilled.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Flask of the Superior Hearth" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_FLASK_OF_THE_SUPERIOR_HEARTH">
+		<description>
+			<html>&lt;p&gt;This dull and worn emerald flask is slightly warm to the touch. When placed in a campfire, hearth, or similar source of flame, it begins to slowly fill with a vibrant orange liquid. After 1 hour, the flask is filled completely. It may be removed from the fire safely as it is never more than warm to the touch. Using a bonus action, a creature may drink a portion of the liquid in order to regain a number of Hit Points depending on the variety of the flask.&lt;/p&gt;
+&lt;p&gt;On use, this flasks heals for 8d4 + 8 Hit Points.&lt;/p&gt;
+&lt;p&gt;The flask has 4 uses before it needs to be refilled.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Acid Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ACID_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Acid damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Ice Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ICE_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Cold damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Fire Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_FIRE_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Fire damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Wind Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_WIND_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Force damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Electric Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ELECTRIC_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Lightning damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Rot Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ROT_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Necrotic damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Poison Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_POISON_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Poison damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Psychic Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_PSYCHIC_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Psychic damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Holy Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_HOLY_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Radiant damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Thunder Paper" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_THUNDER_PAPER">
+		<description>
+			<html>&lt;p&gt;This paper is imbued with elemental magic. This paper can be used to coat a weapon with elemental properties for up to 1 minute.&lt;/p&gt;
+&lt;p&gt;Using a bonus action, you may use this paper to change a weapons attack damage to Thunder damage.&lt;/p&gt;
+&lt;p&gt;The paper can not be used on a weapon that already does elemental damage.&lt;/p&gt;
+&lt;p&gt;Upon use, the paper disintegrates.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Bandolier, +1" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BANDOLIER_1">
+		<description>
+			<html>&lt;p&gt;This enchanted leather shoulder-belt magically enhances all ammo stored within it. It can hold a maxium of 100 bullets.&lt;/p&gt;
+&lt;p&gt;This item gives a +1 bonus to attack and damage rolls while it is equipped.&lt;.p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Slot">Chest</set>
+			<set name="Attunement">True</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Bandolier, +2" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BANDOLIER_2">
+		<description>
+			<html>&lt;p&gt;This enchanted leather shoulder-belt magically enhances all ammo stored within it. It can hold a maxium of 100 bullets.&lt;/p&gt;
+&lt;p&gt;This item gives a +2 bonus to attack and damage rolls while it is equipped.&lt;.p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Slot">Chest</set>
+			<set name="Attunement">True</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Bandolier, +3" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BANDOLIER_3">
+		<description>
+			<html>&lt;p&gt;This enchanted leather shoulder-belt magically enhances all ammo stored within it. It can hold a maxium of 100 bullets.&lt;/p&gt;
+&lt;p&gt;This item gives a +3 bonus to attack and damage rolls while it is equipped.&lt;.p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Slot">Chest</set>
+			<set name="Attunement">True</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Adventurer's Map" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ADVENTURERS_MAP">
+		<description>
+			<html>&lt;p&gt;This map is impued with a strange sort of magic. The map will slowly fill out on its own as the bearer learns of a location, or finds it themselves. The map will remember all locations it has ever learned. &lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Pegasus Cloak" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_PEGASUS_CLOAK">
+		<description>
+			<html>&lt;p&gt; While wearing this cloak, you can use a bonus action to turn the cloak into a pair of magnifcent pegasus wings. The wings give you a flying speed of 60 feet and last for one hour, or until you dismiss them with an action. When the wings disappear, you have to wait 1d6 hours before using them again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inner Pegasus&lt;/p&gt;
+You can use your action to turn yourself into a Pegasus for up to 2 hours or until you dismiss them with a bonus action. Your game statistics are replaced by the statistics of a Pegasus (CR 2), but you retain you alignment, personality, and Intelligence, Wisdom, and Charisma scores. Your gear melds into your new form and you can't activate, use, wield, or otherwise benefit from it. Once used, this property can't be used again until next dawn.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Attunement">True</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+			<set name="Slot">Shoulders</set>
+		</setters>
+	</element>
+	<element name="Beginner's Elemental Hand Wraps" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BEGINNERS_ELEMENTAL_HAND_WRAPS">
+		<description>
+			<html>&lt;p&gt;Used by mystics and monks who seek to deepen their connection to elemental magic. These hand wraps infuse melee strike with elemental damage.&lt;/p&gt;
+&lt;p&gt;While wearing the Elemental Hand Wraps, your fists or natural weapons are empowered by elemental magic. Any attack rolls you make with unarmed strikes and natural weapons are considered to be magical.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elemental Infusion&lt;/p&gt;
+&lt;p&gt;While wearing these hand wraps, you can use a bonus action and choose one of the following damage types: acid, cold, fire, lightning, or thunder. Your unarmed strikes and natural weapons become infused with elemental magic and deal +1d6 of the damage type you chose.&lt;/p&gt;
+&lt;You may use another bonus action to choose another damage type, or to end this effect.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Attunement">True</set>
+			<set name="Weight" lb="0.25">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Intermediate's Elemental Hand Wraps" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_INTERMEDIATES_ELEMENTAL_HAND_WRAPS">
+		<description>
+			<html>&lt;p&gt;Used by mystics and monks who seek to deepen their connection to elemental magic. These hand wraps infuse melee strike with elemental damage.&lt;/p&gt;
+&lt;p&gt;While wearing the Elemental Hand Wraps, your fists or natural weapons are empowered by elemental magic. Any attack rolls you make with unarmed strikes and natural weapons are considered to be magical.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elemental Infusion&lt;/p&gt;
+&lt;p&gt;While wearing these hand wraps, you can use a bonus action and choose one of the following damage types: acid, cold, fire, lightning, or thunder. Your unarmed strikes and natural weapons become infused with elemental magic and deal +2d6 of the damage type you chose.&lt;/p&gt;
+&lt;You may use another bonus action to choose another damage type, or to end this effect.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Attunement">True</set>
+			<set name="Weight" lb="0.25">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Master's Elemental Hand Wraps" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_MASTERS_ELEMENTAL_HAND_WRAPS">
+		<description>
+			<html>&lt;p&gt;Used by mystics and monks who seek to deepen their connection to elemental magic. These hand wraps infuse melee strike with elemental damage.&lt;/p&gt;
+&lt;p&gt;While wearing the Elemental Hand Wraps, your fists or natural weapons are empowered by elemental magic. Any attack rolls you make with unarmed strikes and natural weapons are considered to be magical.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elemental Infusion&lt;/p&gt;
+&lt;p&gt;While wearing these hand wraps, you can use a bonus action and choose one of the following damage types: acid, cold, fire, lightning, or thunder. Your unarmed strikes and natural weapons become infused with elemental magic and deal +3d6 of the damage type you chose.&lt;/p&gt;
+&lt;You may use another bonus action to choose another damage type, or to end this effect.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Attunement">True</set>
+			<set name="Weight" lb="0.25">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Percival's Mask" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_PERCIVALS_MASK">
+		<description>
+			<html>&lt;p&gt;This mask is constructed to resemble the head of a long beaked bird. Assembled with dark, boiled, and shaped leather, it is ribbed with carefully crafted metals and cold lens of smoked glass. The true ingenuity lies in the rudimentary filtration system built into the beak, offering a respite for inhospitable conditions.&lt;/p&gt;
+&lt;p&gt;When donned, this mask offers additonal protections for any inhaled effect.&lt;/p&gt;
+&lt;p&gt;The wearer has advantage on Constitution saving throws for spells, effects, or poisons involving inhalation. This includes spells such as &lt;strong&gt;Poison Spray&lt;/strong&gt;, &lt;strong&gt;Stinking Cloud&lt;/strong&gt;, etcetera.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wonderous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+			<set name="Attunement">True</set>
+			<set name="Slot">Head</set>
+		</setters>
+	</element>
+	<element name="Crown of The Great Wolf" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_CROWN_OF_THE_GREAT_WOLF">
+		<description>
+			<html>&lt;p&gt;A cowl made from the hide and skull of the once great and powerful Great Wolf. The skull from the Great Wolf is lightly covered with thin black and gray fur, and the eyes glow a faint blue.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mind of The Wolf&lt;/p&gt;
+&lt;p&gt;While attuned to this crown you have darkvision up to 90ft. You are immune to being Frightened or Charmed and have advantage on saving throws against being Stunned. Addionally, you may add your proficiency bonus to Survival checks you make to track another creature.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Battle&lt;/p&gt;
+&lt;p&gt;If you drop to 0 hit points while attuned to this crown, you regain 4d10 hit points when you roll a successful death save or when you regain any number of hit points. You can only use this effect once per long rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Parts of a Whole&lt;/p&gt;
+&lt;p&gt; If you are also attuned to the Hide of The Great Wolf, the AC of that armor increases by 1. If you are attuned to the Claws of The Great Wolf, they deal 1d8 Necrotic damage instead of 1d6.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wonderous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+			<set name="Attunement">True</set>
+			<set name="Slot">Head</set>
+		</setters>
+	</element>
+	<element name="Gloves of The Great Wolf" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_GLOVES_OF_THE_GREAT_WOLF">
+		<description>
+			<html>&lt;p&gt;A pair of gloves made from the hide of the once great and powerful Great Wolf. The gloves are made from the black and gray pelt of The Great Wolf, with claws on the ends of the fingers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dark Claws&lt;/p&gt;
+&lt;p&gt;When wearing these gauntlets, your unarmed strikes deal an extra 1d6 Necrotic damage. This bonus is also applied to attacks you make while you are &lt;strong&gt;Wild Shaped&lt;/strong&gt; or &lt;strong&gt;Polymorphed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloodthirst&lt;/p&gt;
+&lt;p&gt;Whenever you reduce a creature to 0 hit points, you gain advantage on your next attack roll within 1 minute.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ravager of the Divine&lt;/p&gt;
+&lt;p&gt;Whenever you receive Fire, Lightning, Radiant, or Thunder damage, you may use your reaction to reduce that damage. Make a Wisdom saving throw. The DC equals 14. On a successful save you reduce the damage by 2d6+ your Wisdom modifier. You may use this feature once per long rest.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wonderous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+			<set name="Attunement">True</set>
+			<set name="Slot">Hands</set>
+		</setters>
+	</element>
+	<element name="Lionhide Cloak" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_LIONHIDE_CLOAK">
+		<description>
+			<html>&lt;p&gt;Myth has it that an ancient hero once faced a legendary lion that was impervious to the weapons of mortals. Now the cloak is an enduring symbol of strength and bravery.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lion's Endurance&lt;/p&gt;
+&lt;p&gt;You have resistance to nonmagical bludgeoning, piercing, and slashing damage while you are attuned to this cloak.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lion's Strength&lt;/p&gt;
+&lt;p&gt;Your strength score becomes 23 while you wear this cloak. If your Strength is already 23 or higher, this property has no effect on you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lion's Bravery&lt;/p&gt;
+&lt;p&gt;You can not be frightened while you are attuned to this cloak.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Slot">Shoulders</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+			<set name="Attunement">True</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" value="23" bonus="base" />
+		</rules>
+	</element>
+	<element name="Rouge's Grappling Hook" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ROUGES_GRAPPLING_HOOK">
+		<description>
+			<html>&lt;p&gt;A finely crafted gauntlet with an enchanted grapple and 100ft. of rope. Using a bonus action, when pointing with your gauntlet at a spot you wish to grapple, the hook on the rope will shoot in that direction and successfully grapple onto a surface.&lt;/p&gt;
+&lt;p&gt;When tugged, the rope will pull the user into the air at which point they need to make an Acrobatics (DC 13) check to avoid collision with obstacles and to land gracefully with the momentum from the rope.&lt;/p&gt;
+&lt;p&gt;The enchanted hook will detach its self after the user tugs on it a second time or if they land.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Slot">Hands</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+			<set name="Attunement">True</set>
+		</setters>
+	</element>
+	<element name="Conspirator's Coat" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_CONSPIRATORS_COAT">
+		<description>
+			<html>&lt;p&gt;This magic longcoat is adorned with raven feathers and carved jet buttons. While wearing this coat, you have advantage on Charisma (Deception) checks. In addition, the coat has 5 charges and regains 1d4+1 expended charges daily at dusk. While wearing this coat, you can use a bonus action to expand 1 of its charges to disappear, releasaing up to three ravens from your location under your control that scatter into the air. Each raven has an AC 12, 1 hit point, and can fly up to 40 feet as part of this bonus action wihtout provoking opportunity attacks. At the start of your next turn, the ravens vanish, and you reappear in the space of one of the ravens (your choice).&lt;/p&gt;
+&lt;p&gt;If all the ravens are reduced to 0 hit points, you reappear early in the same space as the last one that died. When you do, any excess damage dealt to the raven carries over to your normal form.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Cape</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Slot">Shoulders</set>
+			<set name="Attunement">True</set>
+		</setters>
+	</element>
+	<element name="Cloak of the Mimic" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_CLOAK_OF_THE_MIMIC">
+		<description>
+			<html>&lt;p&gt;While you wear this cloak, you can pull its hood over your head to isguise yourself as any object matching your size, giving you advantage on Dexterity (Stealth) checks. Pulling the hood up requires an action. Dropping the disguise requires no action at all. To discern that you are disguised, a creature must succeed on an Intelligence (Investigation) check against your Dexterity (Stealth) check. In addition, the cloak grants you resistance to acid damage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prehensile Tongue&lt;/p&gt;
+&lt;p&gt;Using your reaction, you can use the cloak's tongue to perform a grapple check on one creature of your choice within 5 feet of you. Attack rolls made against this creature have advantage while successfully grappled.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fangs of the Mimic&lt;/p&gt;
+&lt;p&gt;Using your bonus action, you can use the cloak's teeth to bite another creature within 5 feet of you, causing 1d6 piercing damage. You gain a +3 bonus  to attack and damage rolls made with this property.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Belly of the Beast&lt;/p&gt;
+&lt;p&gt;Using your action, you can feed the cloak a myriad of objects. Nonmagical objects are destroyed, but magical objects are regurgitated.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Cape</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Slot">Shoulders</set>
+			<set name="Attunement">True</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+	<element name="Stone of Healing" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_STONE_OF_HEALING">
+		<description>
+			<html>&lt;p&gt;This dull gray stone is roughly the size of a fist. When a creature is struck with this stone, that creature takes 1d4 bludgeoning damage and is then healed for 1d8 health.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Crimson Amplifier" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_CRIMSON_AMPLIFIER">
+		<description>
+			<html>&lt;p&gt;What looks like an oddly shaped vial is the center piece of a necklace, and on the top, a needle.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A Tiny Drop&lt;/p&gt;
+&lt;p&gt;As a bonus action, you can push your finger on the needle on top of this pendant. This drains a single drop of blood into the pendant and deals 1 Piercing damage. The first Evocation or Necromancy spell you cast within one hour deals an extra 3d4 damage or if it has a save, you can instead increase the DC by 2. Only amplifies spells of the attuned creature when its own blood is used. You can use this feature twice per day.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cuse: Blood Sacrifice&lt;/p&gt;
+&lt;p&gt;When the amplifier accumulates 50 drops of blood, it shatters and summons a &lt;strong&gt;Horned Devil&lt;/strong&gt; and 3d4 &lt;strong&gt;Imps&lt;/strong&gt;.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Attunement">True</set>
+		</setters>
+	</element>
+	<element name="The Heavy Noose" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_THE_HEAVY_NOOSE">
+		<description>
+			<html>&lt;p&gt;Players who wear the heavy noose have &lt;strong&gt;Proficiency&lt;/strong&gt; in &lt;strong&gt; Death Saving Throws&lt;/strong&gt;. When not wearing the noose, it feels as if it weighs as much as a dead body (of an average man).&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Attunement">True</set>
+		</setters>
+	</element>
+	<element name="Mechanical Familiar" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_MECHANICAL_FAMILIAR">
+		<description>
+			<html>&lt;p&gt;This burnished brass sphere of interlocking bands and gears is 3 inches in diameter and weighs 1 pound. As an action, you can insert a gemstone into the sphere and speak the command word. The gemstone is destroyed and the sphere transforms into a familiar as if you had cast the &lt;strong&gt;Find Familiar&lt;/strong&gt; spell. The familiar can use the statistics of any tiny beast of CR 0 and is a construct instead of a beast.&lt;/p&gt;
+&lt;p&gt;Wehn the familiar drops to 0 hit points, it reverts to the brass sphere rather than disappearing.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Emergency Arcane Helpline" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_EMERGENCY_ARCANE_HELPLINE">
+		<description>
+			<html>&lt;p&gt;Thank you for holding, your call is important to us.&lt;/p&gt;
+&lt;p&gt;Supposedly, this stone can help those in great need. But no one has ever been able to get it to do what it's supposed to.&lt;/p&gt;
+&lt;p&gt;A runic stone with an embossed golden sigil. When the wielder's spell slots are depleted, they can activate the sigil to be connected to a customer service agent in an ethereal plane to request a Top-Up. This is against policy, so the caller must pass a DC 17 Persuasion (Charisma) check to recharge one slot.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Attunement">True</set>
+			<set name="Rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Bob the bag of holding" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BOB_THE_BAG_OF_HOLDING">
+		<description>
+			<html>&lt;p&gt;This is Bob. Bob is a Bag of Holding. Bob is typically in a bad mood and likes to cheer itself up by surprising whoever is using hmi with usless, angry animals.&lt;/p&gt;
+&lt;p&gt;Bob can not speak, but can understand all languages. Bob can slightly move on its own to react to something.&lt;/p&gt;
+&lt;p&gt;This bag functions the same as a standard Bag of Holding, but the bag is possessed by a mischievous spirit. When reaching into the bag to retrieve an item, roll 1d4. On a 1, instead of grabbing the item you wanted, a random animal falls out. The animal behaves like an angry, surprised animal would naturally behave.&lt;/p&gt;
+&lt;p&gt;Additionally, the bag will eject a random animal, at any given time (GM's discretion). The animal automatically surprises whoever is carrying the bag and everyone within a 20 foot reach, unless an Investigation (Intelligence) check is made to see if the bag is moving on its own. (DC 15)&lt;/p&gt;
+&lt;p&gt;Random animals (roll 1d12) (also GM's discretion)&lt;/p&gt;
+&lt;p&gt;1: Hippopotamus&lt;/p&gt;
+&lt;p&gt;2: Giant Rat&lt;/p&gt;
+&lt;p&gt;3: Boar&lt;/p&gt;
+&lt;p&gt;4: Cow/Bull&lt;/p&gt;
+&lt;p&gt;5: Giant Frog&lt;/p&gt;
+&lt;p&gt;6: Dire Wolf&lt;/p&gt;
+&lt;p&gt;7: Ape&lt;/p&gt;
+&lt;p&gt;8: Black Bear&lt;/p&gt;
+&lt;p&gt;9: Elephant&lt;/p&gt;
+&lt;p&gt;10: Swarm of Wasps&lt;/p&gt;
+&lt;p&gt;11: Crocodile&lt;/p&gt;
+&lt;p&gt;12: OwlBear&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Weight" lb="20">20 lb.</set>
+		</setters>
+	</element>
+	<element name="Antoch's Holy Grenade" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ANTOCHS_HOLY_GRENADE">
+		<description>
+			<html>&lt;p&gt;First shalt thou take out the Holy Pin. Then, shalt thou count to three. No more. No less. Three shalt be the number thou shalt count, and the number of the counting shall be three. Four shalt thou not count, nor either count thou two, excepting that shou then proceed to three. Five is right out. Once the number three, being the third number, be reached, then, lobbest thou Holy Grendade towards thy foe, who, being naughty in My sight, shall snuff it.&lt;/p&gt;
+&lt;p&gt;As an action, you can throw the Holy Grenade up to 60 feet. It affects a 20-foot radius sphere centered on the point to which you threw it. Each creature in that area must succeed on a DC 19 Dexterity saving throw or take 12d12 radiant damage on a failed throw, or half as much on a successful one.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Weight" lb="5">5 lb.</set>
+		</setters>
+	</element>
+	<element name="Stuffed Dragon" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_STUFFED_DRAGON">
+		<description>
+			<html>&lt;p&gt;Give the Stuffed Dragon a hug and kiss every night for 5 consecutive nights and the teddy will turn inta a Psuedodragon Familiar.&lt;/p&gt;
+&lt;p&gt;If the Psuedodragon dies, it transforms back into the the Stuffed Dragon, and must have the ritual repeated to resummon.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Not Just a Stick" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_NOT_JUST_A_STICK">
+		<description>
+			<html>&lt;p&gt;Just a normal stick.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tough Love&lt;/strong&gt; 3/Day:&lt;/p&gt;
+&lt;p&gt;Deals 1d4 damage on a successful hit, then heals the same target based on the damage roll:&lt;/p&gt;
+&lt;p&gt;1 - Heals 1d4 hit points&lt;/p&gt;
+&lt;p&gt;2 - Heals 1d8 hit points&lt;/p&gt;
+&lt;p&gt;3 - Heals 1d12 hit points&lt;/p&gt;
+&lt;p&gt;4 - Heals 1d20 hit points&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Throwing Brick of Returning" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_THROWING_BRICK_OF_RETURNING">
+		<description>
+			<html>&lt;p&gt;Like a Throwing Dagger of Returning, but a brick.&lt;/p&gt;
+&lt;p&gt;Counts as an improvised weapon.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Beacon Belts" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BEACON_BELTS">
+		<description>
+			<html>&lt;p&gt;A pair of identical belts with a strange gem for a buckle.&lt;/p&gt;
+&lt;p&gt;Once per day, if both wearers are willing, they can swap postions, regardless of distance.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Locket of Instant Mustache" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_LOCKET_OF_INSTANT_MUSTACHE">
+		<description>
+			<html>&lt;p&gt;A beautiful locket with an icon of a mustache engraved on it.&lt;/p&gt;
+&lt;p&gt;When opened, the holder gains an instant, beautiful mustache. When closed or leaves the holder's possession, the mustache instantly disappears.&lt;/p&gt;
+&lt;p&gt;+1 to Bluff checks, +2 to Disguise as long as the mustache is active.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="The Lover's Divide" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_THE_LOVERS_DIVIDE">
+		<description>
+			<html>&lt;p&gt;The bracelets share all damage between those that wear them.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Monster Compass" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_MONSTER_COMPASS">
+		<description>
+			<html>&lt;p&gt;This compass points to the nearest hostile monster. The darker the eye, the more fearsome (higher challenge rating) it is.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Hairpin of Initiative" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_HAIRPIN_OF_INITIATIVE">
+		<description>
+			<html>&lt;p&gt;This elegant silver hairpin seems to have been interwoven with three blue feathers for decoration. Despite its apparent simple makings, the gems hold a swift magic to help one stay slightly more on their toes.&lt;/p&gt;
+&lt;p&gt;Wearing this item grants +2 to all of the user's initiative rolls.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+			<set name="Attunement">True</set>
+		</setters>
+		<rules>
+			<stat name="initiative" value="2" />
+		</rules>
+	</element>
+	<element name="Soldier's Trinket" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_SOLDIERS_TRINKET">
+		<description>
+			<html>&lt;p&gt;(2/Day) The wearer of this necklace can cast either &lt;strong&gt;Blade Ward&lt;/strong&gt; or &lt;strong&gt;True Strike&lt;/strong&gt; as a bonus actions.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Common</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Rubber Ducky" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_RUBBER_DUCKY">
+		<description>
+			<html>&lt;p&gt;Once per day when a projectile is heading towards you, you hear "Duck" inside your head. The creature that targeted you automatically misses their attack.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Uncommon</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Lawyer in a Can" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_LAWYER_IN_A_CAN">
+		<description>
+			<html>&lt;p&gt;Cracking open the Lawyer In A Can™ opens a portal to dimension Squiggly Boggles which holds the most serious and efficient lawyers in the multiverse.&lt;/p&gt;
+&lt;p&gt;Moments later, a well-dressed humanoid lawyer steps through and is at your service for 5 minutes. The lawyer has a +10 on persuasion checks and will negotiate on your behalf. The lawyer speaks all languages and specializes in bartering both for resources, and for your life as well.&lt;/p&gt;
+&lt;p&gt;Please know that the Lawyer In A Can™ does not actually emerge from the can, it is simply a safe method of portaling and your money will not be refunded beacause you 'wanted a teeny tiny can-sized lawyer'.&lt;/p&gt;
+&lt;p&gt;As the Lawyer In A Can™ disappears, it slips you its business card with its private incantation line. While you possess the incantation, you can summon them forth for future negotiations...at a price. Please recycle the can after use.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Rare</set>
+			<set name="Weight" lb="0.25">¼ lb.</set>
+		</setters>
+	</element>
+	<element name="Flask of the Supreme Hearth" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_FLASK_OF_THE_SUPERIOR_HEARTH_2">
+		<description>
+			<html>&lt;p&gt;This dull and worn emerald flask is slightly warm to the touch. When placed in a campfire, hearth, or similar source of flame, it begins to slowly fill with a vibrant orange liquid. After 1 hour, the flask is filled completely. It may be removed from the fire safely as it is never more than warm to the touch. Using a bonus action, a creature may drink a portion of the liquid in order to regain a number of Hit Points depending on the variety of the flask.&lt;/p&gt;
+&lt;p&gt;On use, this flasks heals for 10d4 + 20 Hit Points.&lt;/p&gt;
+&lt;p&gt;The flask has 5 uses before it needs to be refilled.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Keywords">Charm</set>
+			<set name="Category">Wondrous Items</set>
+			<set name="Type">Wondrous Items</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+</elements>

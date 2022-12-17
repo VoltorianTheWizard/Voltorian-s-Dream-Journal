@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Hide of The Great Wolf" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_HIDE_OF_THE_GREAT_WOLF">
+		<description>
+			<html>&lt;p&gt;Armor made from the pelt of The Great Wolf. The pauldrons are reinforced with plate, while the rest of the set is comprised of hide. The armor is black and gray just like The Great Wolf's hide once was.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vigor&lt;/p&gt;
+&lt;p&gt;While wearing this armor, you gain resistance to Cold damage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pack Tactics&lt;/p&gt;
+&lt;p&gt;While wearing this armor, you have advantage on the first attack roll of your turn if at least one of your allies is within 5ft. of your target and the ally isn't incapacitated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Avatar of The Wolf&lt;/p&gt;
+&lt;p&gt; You can use an action to transform into a Winterwolf for 1 hour. Your AC in this form is 12+ your Dexterity modifier. If you are attuned to both the Claws and Crown of The Great Wolf as well, your AC is increased to 14+ your Dexterity Modifier. Additionally, you can make a multiattack in this form, making two attacks with your bite or claws. You can revert to your normal form early by using a bonus action on your turn. You automatically revert if you fall Unconscious, drop to 0 hit points, or die. Other rules that apply to the druid &lt;strong&gt;Wild Shape&lt;/strong&gt; feature apply to this feature as well. You can use this feature once per long rest.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="armorClass">14 + Dex modifier (max 2)</set>
+			<set name="Category">Magic Items</set>
+			<set name="Armor">Hide</set>
+			<set name="Slot">Body</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Enhancement">2</set>
+			<set name="Type">Armor</set>
+			<set name="Attunement">True</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+		</rules>
+	</element>
+	<element name="Armor of Intense Negotiations" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_ARMOR_OF_INTENSE_NEGOTIATIONS">
+		<description>
+			<html>&lt;p&gt; Made for a legendary bard on a quest to spread love and beauty, this armor protects you and your fashion sense, while allowing you to engage in intense forms of negotiation.&lt;/p&gt;
+&lt;p&gt;While wearing this armor, you gain +1 bonus to AC. Additionally, you are always prepared for intense negotiations. You have advantage on Insight (Wisdom) checks to determine whether a person is romantically attracted to you, and advantage on all Performance (Charisma) and Persuasion (Charisma) checks related to romantic activites.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Always in Fashion&lt;/p&gt;
+&lt;p&gt;You can use a bonus action to cause the armor to assume the illusory appearance of any set of clothing or armor. You decide what it looks like, but the armor retains its original physical properties. You can use another bonus action to casue the armor to assume another illusory appearance or revert to its original form. The illusory appearance ends when you remove the armor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Straight to Business&lt;/p&gt;
+&lt;p&gt;You can doff the Armor of Intense Negotiations as an action.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Magic Items</set>
+			<set name="Armor">Studded Leather</set>
+			<set name="Slot">Body</set>
+			<set name="Rarity">Very Rare</set>
+			<set name="Attunement">True</set>
+			<set name="Enhancement">1</set>
+			<set name="Type">Armor</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
+	<element name="Berserker Armor" type="Magic Item" source="Voltorian's Dream Journal" id="ID_VDJ_MAGIC_ITEM_BERSERKER_ARMOR">
+		<description>
+			<html>&lt;p&gt;Unsure of its origin, this amor once belonged to a lone warrior who was capable to decimate armies. The armor is solid black plates layered on top of one another to maximize movement and protection. The visor on the helmet is a piercing red color.&lt;/p&gt;
+&lt;p&gt;While wearing this armor, you gain a +2 to AC as well as +2 STR.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unyielding Rage&lt;/p&gt;
+&lt;p&gt;When an attack would take you to 0 hit points or lower you instead are reduced to 1 hit point and enter a Barbarian class feature &lt;strong&gt;Rage&lt;/strong&gt;. You can do this as many times as your level would permit if you were a Barbarian.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Armor">Plate</set>
+			<set name="Slot">Body</set>
+			<set name="Rarity">Legendary</set>
+			<set name="Category">Magic Items</set>
+			<set name="Attunement">True</set>
+			<set name="Enhancement">2</set>
+			<set name="Type">Armor</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+			<stat name="strength" value="2" />
+		</rules>
+	</element>
+</elements>

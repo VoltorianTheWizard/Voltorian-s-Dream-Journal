@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Gift of Explosive Life" type="Magic Item" source="Voltorian's Dream Journal" id="ID_MAGIC_ITEM_GIFT_OF_EXPLOSIVE_LIFE">
+		<description>
+			<html>&lt;p&gt;This blessing grants you immunity to all explosions. Explosions also heal you for whatever damage they would have delt instead. You can gain temporary HP equal to double your current level.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Supernatural Gifts</set>
+			<set name="Type">Blessing</set>
+			<set name="Slot">Blessing</set>
+		</setters>
+	</element>
+	<element name="Gift of Aura Intentions" type="Magic Item" source="Voltorian's Dream Journal" id="ID_MAGIC_ITEM_GIFT_OF_EXPLOSIVE_LIFE_2">
+		<description>
+			<html>&lt;p&gt;This blessing allows you to see a small blue light eminating from fellow Three Sister Goddesses' champions. If you focus, you can sometimes see other colors to determine the intentions another creature has towards you. Different colors represent different intentions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Green:&lt;/p&gt;
+&lt;p&gt;The creature has good intentions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Purple:&lt;/p&gt;
+&lt;p&gt;The creature is willing to speak with you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yellow:&lt;/p&gt;
+&lt;p&gt;The creature does not want to interact with you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Red:&lt;/p&gt;
+&lt;p&gt;The creature means you harm.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="Category">Supernatural Gifts</set>
+			<set name="Type">Blessing</set>
+			<set name="Slot">Blessing</set>
+		</setters>
+	</element>
+</elements>
